@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        questionLabel.text = questions[currentQuestionIndex]
     }
     
     @IBAction func showNextQuestion(_ sender:UIButton){
