@@ -16,26 +16,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAR-SJ-Pt4">
-                                <rect key="frame" x="165" y="164" width="25" height="21"/>
+                                <rect key="frame" x="194.5" y="197" width="25" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXt-39-1Cs">
-                                <rect key="frame" x="165" y="376" width="25" height="21"/>
+                                <rect key="frame" x="194.5" y="365" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCX-SX-3aW">
-                                <rect key="frame" x="128.5" y="261" width="98" height="30"/>
+                                <rect key="frame" x="158" y="260" width="98" height="30"/>
                                 <state key="normal" title="Next Question"/>
                                 <connections>
                                     <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5j-Ub-Ryd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cav-Ue-4bd">
-                                <rect key="frame" x="152" y="487" width="51" height="30"/>
+                                <rect key="frame" x="181.5" y="460" width="51" height="30"/>
                                 <state key="normal" title="Answer"/>
                                 <connections>
                                     <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7HT-zI-kZU"/>
@@ -44,15 +44,14 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Cav-Ue-4bd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="3Mn-ZG-FGj"/>
-                            <constraint firstItem="HAR-SJ-Pt4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="EGG-Ns-6hF"/>
-                            <constraint firstItem="GXt-39-1Cs" firstAttribute="centerX" secondItem="Cav-Ue-4bd" secondAttribute="centerX" id="NKx-my-jwX"/>
-                            <constraint firstItem="xCX-SX-3aW" firstAttribute="top" secondItem="HAR-SJ-Pt4" secondAttribute="bottom" constant="76" id="cwc-oY-PBx"/>
-                            <constraint firstItem="HAR-SJ-Pt4" firstAttribute="centerX" secondItem="xCX-SX-3aW" secondAttribute="centerX" id="l0D-Gi-yJh"/>
-                            <constraint firstItem="HAR-SJ-Pt4" firstAttribute="leading" secondItem="GXt-39-1Cs" secondAttribute="leading" id="rtK-lq-nD9"/>
-                            <constraint firstItem="Cav-Ue-4bd" firstAttribute="top" secondItem="GXt-39-1Cs" secondAttribute="bottom" constant="90" id="sBE-ac-THa"/>
-                            <constraint firstItem="GXt-39-1Cs" firstAttribute="top" secondItem="xCX-SX-3aW" secondAttribute="bottom" constant="85" id="uqE-hh-RdT"/>
-                            <constraint firstItem="HAR-SJ-Pt4" firstAttribute="trailing" secondItem="GXt-39-1Cs" secondAttribute="trailing" id="wpC-PT-kJD"/>
+                            <constraint firstItem="Cav-Ue-4bd" firstAttribute="top" secondItem="GXt-39-1Cs" secondAttribute="bottom" constant="74" id="6dd-em-d4I"/>
+                            <constraint firstItem="HAR-SJ-Pt4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DfK-G4-I8u"/>
+                            <constraint firstItem="Cav-Ue-4bd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jxf-ri-s0P"/>
+                            <constraint firstItem="GXt-39-1Cs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P0n-5A-8Yr"/>
+                            <constraint firstItem="xCX-SX-3aW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aHu-qt-NUS"/>
+                            <constraint firstItem="GXt-39-1Cs" firstAttribute="top" secondItem="xCX-SX-3aW" secondAttribute="bottom" constant="75" id="dzP-1R-Z5T"/>
+                            <constraint firstItem="xCX-SX-3aW" firstAttribute="top" secondItem="HAR-SJ-Pt4" secondAttribute="bottom" constant="42.5" id="fiR-Sg-wyq"/>
+                            <constraint firstItem="HAR-SJ-Pt4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="weJ-ff-c72"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -63,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="104"/>
+            <point key="canvasLocation" x="137.68115942028987" y="103.79464285714285"/>
         </scene>
     </scenes>
 </document>
